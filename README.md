@@ -1,3 +1,5 @@
 # Agent-Based-Auction-Model
 
-This repository hosts the LCfP Agent-based auctions project.
+This repository hosts the Multi-Agent-based auctions project.
+
+AUTHOR : ANSHUM
