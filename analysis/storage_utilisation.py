@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from config import Config
 
+# dataframe of min, max and mean to visualise
+
 def storage_utilisation(df):
     # add the columns with the minimal, mean and max value of each day
     df["min"] = df.min(axis=1)
