@@ -4,7 +4,6 @@ from enums import TransporterState, ContainerState
 from tools import route_euclidean_distance
 from random import choice
 
-# documentation done 29-06-18 Meike Koenen
 
 class Transportcompany(Entity):
 # """ the transport company matches its available transporters to containers awaiting pick-up """

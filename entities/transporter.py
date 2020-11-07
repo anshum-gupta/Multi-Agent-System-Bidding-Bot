@@ -4,7 +4,7 @@ from itertools import count
 from tools import route_euclidean_distance, find_region, find_hub_coordinates
 from types import SimpleNamespace
 
-#documentation done by Michiel Horst 14-03-18
+
 
 
 class Transporter(Entity):  # or name it truck?

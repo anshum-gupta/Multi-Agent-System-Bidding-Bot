@@ -8,7 +8,6 @@ from collections import namedtuple
 from tabulate import tabulate  # to be able to print a table
 from math import ceil    # to return the ceiling of x as a float, the smallest integer value greater than or equal to x
 
-#documentation done 30-05-2018 Meike Koenen
 
 class Producer(Seller):
     _ids = count(0)

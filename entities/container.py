@@ -5,7 +5,6 @@ from itertools import count
 from tools import route_euclidean_distance, find_hub_coordinates
 from collections import namedtuple
 
-#documentation done 30-05-2018 Meike Koenen
 
 class Container(Buyer):
     _ids = count(0)           #returns the number of occurences of an element in a list starting with 0
