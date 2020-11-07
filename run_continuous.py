@@ -5,6 +5,7 @@ from analysis import calculate_averages
 from concurrent.futures.process import ProcessPoolExecutor
 from concurrent.futures import wait
 
+# runs the simulation of the bot
 
 def run_sim(exp_no):
     environment = Environment_continuous()
