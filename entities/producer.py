@@ -32,7 +32,7 @@ class Producer(Seller):
 
 
     def produce(self):
-    """a producer produces according to his production rate if he has room within his storage for the produced shipment"""
+    # """a producer produces according to his production rate if he has room within his storage for the produced shipment"""
         if self.env.config.debug is True and self.region.id < 1:
             room_before_production = self.storage_capacity-len(self.storage)
 
