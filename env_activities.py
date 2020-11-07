@@ -1,6 +1,8 @@
 from enums import EntityTypes, ShipmentState, ContainerState
 from tools import calculate_matching_distance
 
+# perform whatever actions needed
+
 def daily_actions(environment, matching_distances, day):
     transportation(environment)
 
