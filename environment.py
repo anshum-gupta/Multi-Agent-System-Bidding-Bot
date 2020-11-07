@@ -4,6 +4,7 @@ from random import choice
 from itertools import count
 
 
+# setup the environment for the bot
 class Environment(object):
 
     def __init__(self):
