@@ -153,6 +153,8 @@ class Auctioneer(Entity):
 
         return
 
+
+
     def finalize_matchmaking(self,matches):
         '''I made a seperate function to unregister both container and shipments, otherwise it messes up the
         for loops in the invoice and container payment functions. And it seems nice to have a payment check
@@ -188,6 +190,8 @@ class Auctioneer(Entity):
                                 "shipment registration key",
                                 "bidding value"]))
 
+
+    # just prints whatever the bids are in the container
     def print_container_bid_info(self):
         if EntityTypes.CONTAINER not in self.entities.keys():
             return
